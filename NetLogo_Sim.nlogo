@@ -662,46 +662,6 @@ NetLogo 6.3.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
-<experiments>
-  <experiment name="Cult-Nestor1" repetitions="250" sequentialRunOrder="false" runMetricsEveryStep="true">
-    <setup>setup</setup>
-    <go>go</go>
-    <timeLimit steps="10"/>
-    <metric>count turtles with [bmi-group = 1] * 100 / count turtles</metric>
-    <metric>count turtles with [bmi-group = 2] * 100 / count turtles</metric>
-    <metric>count turtles with [bmi-group = 3] * 100 / count turtles</metric>
-    <metric>count turtles with [bmi-group = 4] * 100 / count turtles</metric>
-    <metric>mean [bmi] of turtles</metric>
-    <metric>median [bmi] of turtles</metric>
-    <metric>standard-deviation [bmi] of turtles</metric>
-    <metric>mean [pgs-bmi] of turtles</metric>
-    <metric>median [pgs-bmi] of turtles</metric>
-    <metric>standard-deviation [pgs-bmi] of turtles</metric>
-    <metric>mean [crs] of turtles</metric>
-    <metric>median [crs] of turtles</metric>
-    <metric>standard-deviation [crs] of turtles</metric>
-    <enumeratedValueSet variable="initial-people">
-      <value value="7000"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="omega">
-      <value value="0"/>
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="phi">
-      <value value="0"/>
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="p">
-      <value value="0"/>
-      <value value="0.1"/>
-      <value value="0.2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="beta">
-      <value value="0"/>
-      <value value="1"/>
-    </enumeratedValueSet>
-  </experiment>
-</experiments>
 @#$#@#$#@
 @#$#@#$#@
 default
